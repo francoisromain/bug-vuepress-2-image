@@ -1,6 +1,6 @@
 # vuepress 2 bug
 
-Can not import image from another directory.
+Can not access to the sub page.
 
 To reproduce the bug :
 
@@ -9,6 +9,6 @@ npm i
 npm run dev
 ```
 
-```bash
-Can't resolve '../images/video.png'
-```
+From the brwoser, head to `http://localhost:8080/sub`.
+
+This makes a `404`.
